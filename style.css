@@ -1,0 +1,199 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #000000;
+}
+
+.navbar .navbar-brand {
+    color: #fff;
+}
+
+.nav-item .nav-link {
+    color: #fff;
+}
+
+.main section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.left-sec {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.left-sec h1 {
+    font-size: 3.5rem;
+}
+
+.left-sec h3 {
+    font-size: 2.5rem;
+}
+
+.left-sec .top-buttons {
+    display: flex;
+    gap: 10px;
+    margin-top: 1rem;
+}
+
+.top-buttons button {
+    padding: 10px 30px;
+    border-radius: 10px;
+    border: none;
+    box-shadow: 2px 2px 5px #8e8e8e;
+}
+
+.top-buttons button a {
+    text-decoration: none;
+    color: #000000;
+}
+
+.right-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.container-2 {
+    display: flex;
+    margin-top: 5rem;
+}
+
+.container-2 .left-sec {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
+}
+
+.container-2 .right-sec {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    flex-basis: 50%;
+}
+
+.container-2 .right-sec h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container-2 .right-sec p {
+    font-size: 1.2rem;
+}
+
+.container-3 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container-3 .project-head h3 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.container-3 .projects img {
+    border-radius: 10px;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer h4 {
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+footer .social {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 20px;
+}
+
+@media(max-width:768px) {
+    .left-sec {
+        flex-basis: 100%;
+    }
+
+    .left-sec h1 {
+        font-size: 2.5rem;
+    }
+
+    .left-sec h3 {
+        font-size: 1.5rem;
+    }
+
+    .top-buttons button {
+        padding: 5px 20px;
+        border-radius: 10px;
+        border: none;
+        box-shadow: 2px 2px 5px #8e8e8e;
+    }
+
+    .right-sec {
+        margin-top: 2rem;
+        flex-basis: 100%;
+    }
+
+    .right-sec img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .container-2 {
+        flex-direction: column-reverse;
+    }
+
+    .container-2 .left-sec {
+        flex-basis: 100%;
+    }
+
+    .container-2 .right-sec {
+        align-items: center;
+        flex-basis: 100%;
+    }
+
+    .container-2 .right-sec h3 {
+        font-size: 1.5rem;
+        font-weight: 700;
+    }
+
+    .container-2 .right-sec p {
+        font-size: 1rem;
+    }
+
+    .container-3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .container-3 .project-head h3 {
+        font-size: 2rem;
+        font-weight: 700;
+    }
+
+    .container-3 .projects img {
+        border-radius: 10px;
+    }
+}
